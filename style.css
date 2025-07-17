@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+body, h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.page_wrapper{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left_side{
+    flex: 0 0 35%;
+    background: #2b3b50;
+    color: #ffff;
+    padding: 30px;
+    position: relative;
+}
+
+.right_side{
+    flex: 1;
+    background-color: #ffff;
+    padding: 40px;
+    h3{
+        padding: 0 0 0 10px;
+    }
+    h4{
+        padding: 0 0 0 20px
+    }
+}
+
+section{
+    padding: 200px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#profile_photo img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid black;
+}
+.button:hover{
+    opacity: 0.8;
+
+}
+#contact{
+    img{
+        padding: 20px 0 0 0;
+        width: 10%;
+        height: 10%;
+    }
+    #github{
+        padding-bottom: 2px;
+    }
+    #linkedin{
+        width: 8%;
+        height: 8%;
+    }
+}
+
+#name{
+    font-size: 300%;
+    text-align:center;
+}
+
+#about_me{
+    text-align: justify;
+}
+
+#p2{
+    padding: 30px 0 0 0;
+}
+
+
+#education{
+    h3{
+        font-size: large;
+
+    }
+    h4{
+        font-weight: normal;
+    }
+
+    #transfer{
+        padding-top: 10px;
+    }
+}
+
+#experience{
+    h3{
+        font-size: large;
+    }
+    h4{
+        font-weight: normal;
+    }
+}
+
+#projects {
+    h4{
+        font-weight: normal;
+    }
+}
+
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+  
+.fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
