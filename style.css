@@ -15,7 +15,32 @@
     }
 
     section {
-        padding: 40px 10px;
+        padding: 60px 20px;
+    }
+
+    .page_wrapper {
+        flex-direction: column;
+    }
+    
+    .left_side, .right_side {
+        flex: none;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #name {
+        font-size: 2em;
+    }
+
+    #contact img {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    #about_me {
+        text-align: left;
+        line-height: 1.4;
     }
 }
 
