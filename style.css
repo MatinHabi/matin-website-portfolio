@@ -21,8 +21,12 @@
     }
   
     #contact img {
-      width: 48px;
-      height: 48px;
+      width: 60px;
+      height: 60px;
+    }
+
+    #name{
+        display: none;
     }
   
     section {
