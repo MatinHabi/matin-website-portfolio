@@ -83,7 +83,7 @@ body, h1{
 
 section{
     padding: 200px 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px rgba(0,0,0,0.05);
 }
 
 #profile_photo img{
