@@ -114,6 +114,11 @@ section{
     }
 }
 
+a img {
+    border: none;
+    text-decoration: none;
+}
+
 #name{
     font-size: 300%;
     text-align:center;
