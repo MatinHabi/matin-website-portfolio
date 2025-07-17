@@ -4,43 +4,34 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 768px){
-    body {
-        padding: 20px;
-    }
-    
-    h1, h2, h3, h4 {
-        font-size: 1.4em;
-        text-align: center;
-    }
-
-    section {
-        padding: 60px 20px;
-    }
-
+@media (max-width: 768px) {
     .page_wrapper {
-        flex-direction: column;
+      flex-direction: column;
     }
-    
-    .left_side, .right_side {
-        flex: none;
-        width: 100%;
-        padding: 20px;
+  
+    .left_side,
+    .right_side {
+      width: 100%;
+      padding: 20px;
     }
-    
-    #name {
-        font-size: 2em;
-    }
-
-    #contact img {
-        width: 40px;
-        height: 40px;
-        margin: 10px;
-    }
-
+  
     #about_me {
-        text-align: left;
-        line-height: 1.4;
+      text-align: left;
+      line-height: 1.4;
+    }
+  
+    #contact img {
+      width: 48px;
+      height: 48px;
+    }
+  
+    section {
+      padding: 60px 15px;
+    }
+  
+    h1, h2, h3, h4 {
+      font-size: 1.4em;
+      text-align: center;
     }
 }
 
