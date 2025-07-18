@@ -117,9 +117,17 @@ section{
     }
 }
 
+a, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+}
+  
 a img {
     border: none;
     text-decoration: none;
+    display: inline-block;
 }
 
 #name{
