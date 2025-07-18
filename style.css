@@ -105,8 +105,8 @@ section{
 
 #contact img {
     padding-top: 20px;
-    width: 10%;
-    height: 10%;
+    width: 32px;
+    height: 52px;
 }
   
 #github {
@@ -116,6 +116,10 @@ section{
 #linkedin {
     width: 28px;
     height: 28px;
+}
+
+#resume{
+    padding-bottom: 2px;
 }
 
 a, a:focus, a:visited {
