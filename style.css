@@ -102,19 +102,20 @@ section{
     opacity: 0.8;
 
 }
-#contact{
-    img{
-        padding: 20px 0 0 0;
-        width: 10%;
-        height: 10%;
-    }
-    #github{
-        padding-bottom: 2px;
-    }
-    #linkedin{
-        width: 8%;
-        height: 8%;
-    }
+
+#contact img {
+    padding-top: 20px;
+    width: 32px;
+    height: 32px;
+}
+  
+#github {
+    padding-bottom: 2px;
+}
+  
+#linkedin {
+    width: 28px;
+    height: 28px;
 }
 
 a, a:focus, a:visited {
