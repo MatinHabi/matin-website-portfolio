@@ -132,7 +132,7 @@ section h4{
     object-fit: cover;
     display: block;
     margin: 0 auto 20px;
-    border: 2px solid black;
+    border: 2px solid #f5f7fa;
 }
 .button:hover{
     opacity: 0.8;
