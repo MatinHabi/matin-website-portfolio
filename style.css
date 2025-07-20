@@ -121,6 +121,10 @@ section{
     border-radius: 80px;
 }
 
+section h4{
+    padding-bottom: 15px !important;
+}
+
 #profile_photo img{
     width: 50%;
     height: 50%;
