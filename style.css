@@ -16,8 +16,9 @@
     }
 
     .left_side{
-        border-bottom-right-radius: 80px;
-        border-bottom-left-radius: 80px;
+        border-top-right-radius: none;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
     }
 
     .right_side{
