@@ -15,6 +15,11 @@
       padding: 20px;
     }
 
+    .left_side{
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+    }
+
     .right_side{
         padding: 20px;
     }
