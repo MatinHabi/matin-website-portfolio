@@ -17,7 +17,7 @@ function handleScroll() {
 
     const screenWidth = window.innerWidth;
     const references = document.getElementById('references');
-    if (references && screenWidth >= 1990) {
+    if (references && screenWidth >= 1200) {
         references.classList.add('visible');
     }
 }
