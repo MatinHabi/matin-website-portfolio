@@ -14,10 +14,10 @@ function handleScroll() {
             section.classList.remove('visible');
         }
     });
-    
+
     const screenWidth = window.innerWidth;
     const references = document.getElementById('references');
-    if (references && screenWidth <= 1990) {
+    if (references && screenWidth >= 1990) {
         references.classList.add('visible');
     }
 }
