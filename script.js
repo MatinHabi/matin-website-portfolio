@@ -5,12 +5,12 @@ function isInView(element){
     );
 }
 
-function handleScroll(){
+function handleScroll() {
     const sections = document.querySelectorAll('.fade-in-section');
     sections.forEach((section) => {
-        if (isInView(section)) {
-          section.classList.add('visible');
-        }else{
+        if (isInView(section) || window.innerHeight >= document.body.scrollHeight) {
+            section.classList.add('visible');
+        } else {
             section.classList.remove('visible');
         }
     });
