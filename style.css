@@ -106,7 +106,6 @@ body, h1{
     flex: 1;
     background-color: #ffff;
     padding: 40px;
-    min-height: 100vh;
     h3{
         padding: 0 0 0 10px;
     }
@@ -208,6 +207,10 @@ a img {
     h4{
         font-weight: normal;
     }
+}
+
+#refernces{
+    padding: 30px 40px;
 }
 
 #projects {
